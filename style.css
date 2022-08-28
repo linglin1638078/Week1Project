@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    background-color: lightgoldenrodyellow;
+}
+.navBar{
+    background-color: lightblue;
+    height:100px;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+
+.button{
+    display: flex;
+    align-items:center;
+
+}
+.container{
+    display:flex;
+
+
+}
+.recipe{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:80vw;
+    height:800px;  
+    padding: 30px;  
+    gap: 10px;
+    font-family: fantasy;
+
+}
+.step1{
+    width: 700px;
+    height:700px;
+}
+
+.step2{
+    width: 700px;
+    height:700px;
+}
+
+.step3{
+    width: 700px;
+    height:700px;
+}
+
+.final{
+    width: 700px;
+    height:700px;
+}
+
+.Optional{
+    display: flex;
+    padding-top: 600px;
+    padding-bottom: 600px;
+    padding-right: 30px;
+}
+.option1{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid red;
+    width: 300px;
+    height:200px;
+    align-items:center;
+    font-family: fantasy;
+}
+
+.recipe img{
+    width: 500px;  
+    height: 500px;  
+}
+
+.footer{
+    background-color: lightblue;
+    height:50px;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: fantasy;
+    font-weight: bolder;
+}
